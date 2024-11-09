@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythms of Us</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img class="invert" src="/img/close.svg" alt="">
+            </div>
+            <div class="home bg-gray rounded m-1 p-1">
+                <img src="/img/logo.svg" alt="logo"> <b class="name">Rhythms Of Us</b>
+                <ul>
+                    <li><img src="/img/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="/img/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-gray rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="/img/library.svg" alt="library">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="songslist">
+                    <ul id="songList">
+                        <!-- Dynamically loaded songs will appear here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="right border bg-gray rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgercont">
+                        <img class="invert hamburger" src="/img/hamburger.svg" alt="">
+                        <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                            height="24" color="#000000" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                            height="24" color="#000000" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="sign-btn">Sign Up</button>
+                    <button class="log-btn">Login</button>
+                </div>
+            </div>
+
+            <div class="playlists">
+                <h1>Playlists</h1>
+                <div class="cardcontainer">
+                    <!-- Playlist cards will go here if applicable -->
+                </div>
+                
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo">
+                            <!-- Display current song info here -->
+                        </div>
+                        <div class="songbuttons">
+                            <img width="30px" id="previous" src="/img/previous-svgrepo-com.svg" alt="">
+                            <img width="30px" id="play" src="/img/play2.svg" alt="">
+                            <img width="30px" id="next" src="/img/next.svg" alt="">
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime"></div>
+                            <div class="volume">
+                                <img class="invert" src="/img/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="volumeRange">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
