@@ -1,15 +1,12 @@
 {
   "name": "rhythms-of-us-2",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm --prefix backend start",
+    "build": "npm --prefix backend run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.1"
-  },
   "description": ""
 }
