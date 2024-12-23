@@ -1,6 +1,6 @@
 # Rhythms of Us
 
-Welcome to **Rhythms of Us**! This project is a Node.js application built with Express that showcases a dynamic web application for music lovers. You can check out the live version [here](https://rhythms-of-us.up.railway.app/).
+Welcome to **Rhythms of Us**! This project is a Node.js application built with Express that showcases a dynamic web application for music lovers. You can check out the live version [here](https://rhythmsofus.up.railway.app/).
 
 ## Features
 
